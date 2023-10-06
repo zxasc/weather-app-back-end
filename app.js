@@ -10,7 +10,7 @@ app.listen(3000);
 const apiKey = process.env.API_KEY;
 
 
-app.get('/:city', cors({ origin: 'http://localhost:5173' }), (req, res) => {
+app.get('/:city', cors({ origin: 'https://magical-lamington-58153c.netlify.app/' }), (req, res) => {
     const cityInput = req.params.city;
     var name;
 
